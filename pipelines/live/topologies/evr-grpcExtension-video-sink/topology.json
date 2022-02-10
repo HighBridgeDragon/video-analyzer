@@ -22,23 +22,6 @@
         "description": "rtsp Url"
       },
       {
-        "name": "inferencingUrl",
-        "type": "String",
-        "description": "inferencing Url"
-      },
-      {
-        "name": "inferencingUserName",
-        "type": "String",
-        "description": "inferencing endpoint user name.",
-        "default": "dummyUserName"
-      },
-      {
-        "name": "inferencingPassword",
-        "type": "String",
-        "description": "inferencing endpoint password.",
-        "default": "dummyPassword"
-      },
-      {
         "name": "grpcExtensionAddress",
         "type": "String",
         "description": "grpc AVA Extension Address",
