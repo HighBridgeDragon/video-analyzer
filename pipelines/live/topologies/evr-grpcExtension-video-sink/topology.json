@@ -104,9 +104,10 @@
             "password": "${grpcExtensionPassword}"
           }
         },
-        "dataTransfer": {
-          "mode": "sharedMemory",
-          "SharedMemorySizeMiB": "75"
+        "extensionConfiguration": "${extensionConfiguration}",
+          "dataTransfer": {
+              "mode": "sharedMemory",
+              "SharedMemorySizeMiB": "64"
         },
         "image": {
           "scale": {
